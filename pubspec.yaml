@@ -1,0 +1,38 @@
+name: weather_task
+description: Weather application is small task about clean architecture design and TDD test.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^7.2.0
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  injectable: ^2.1.0
+  retrofit: ^3.3.1
+  freezed: ^2.3.2
+  json_annotation: ^4.7.0
+  shared_preferences: ^2.0.15
+  connectivity_checker: ^1.1.0
+  dio: ^4.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.3.2
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  injectable_generator: ^2.1.3
+  retrofit_generator: ^4.2.0
+  json_serializable: ^6.5.4
+
+flutter:
+  uses-material-design: true
